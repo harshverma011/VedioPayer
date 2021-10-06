@@ -15,7 +15,10 @@ maven { url 'https://jitpack.io' }
 Add this in your module's build.gradle file:
 dependencies {
     // ... other dependencies add in app level dependency
-    implements 'com.github.halilozercan:BetterVideoPlayer:kotlin-SNAPSHOT'
+    
+    
+        implementation 'com.github.halilozercan:BetterVideoPlayer:kotlin-SNAPSHOT'
+
 }
 
 
